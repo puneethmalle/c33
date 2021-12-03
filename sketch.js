@@ -64,7 +64,7 @@ function setup()
   if(isMoblie){
     canW=displayWidth;
     canH=displayHeight;
-    createCanvas(displayWidth+80,displayHeight);
+    createCanvas(displayWidth,displayHeight);
   }
   else{
     canW=windowWidth;
